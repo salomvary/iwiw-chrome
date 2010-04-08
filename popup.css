@@ -1,0 +1,56 @@
+#container{
+	max-height: 400px;
+	padding-right: 10px;
+	overflow-y: scroll;
+	font-size: 11px;
+}
+ul.activities{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.activities li{
+  margin: 10px 0;
+  padding: 5px;
+  background: #F3F6FD;
+  border: 1px solid #D7E2F3;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.activityTitle{
+  margin: 0;
+  font-weight: bold;
+}
+.typeNEW_BOARDMSG .activityTitle,
+.body{
+  font-weight: normal;
+  font-size: 12px;
+  background: #fff;
+  padding: 4px;
+  margin: 5px 0;
+  border-bottom: 1px solid #DDE0E6;
+}
+.userName{
+  font-weight: bold;
+}
+.typeNEW_BOARDMSG .body,
+.buttons, .comments, .comment_form, .one_line_input, 
+.like_list, .like_list, .mediaItems{
+  display: none;
+}
+.outer img{
+  width: 32px;
+  border: 1px solid #fff;
+}
+.activities li {
+  width: 340px;
+}
+.outer{
+  width: 40px;
+  float: left;
+}
+.wrap{
+  width: 300px;
+  float: right;
+}
+
