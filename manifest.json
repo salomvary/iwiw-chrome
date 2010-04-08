@@ -1,0 +1,11 @@
+{
+  "name": "iWiW for Chrome",
+  "version": "0.1",
+  "browser_action": {
+    "default_icon": "logo_16.png",
+	 "popup": "popup.html"
+  },
+  "permissions": [
+    "http://iwiw.hu/"
+  ]
+}
