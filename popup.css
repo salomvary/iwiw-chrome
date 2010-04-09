@@ -1,7 +1,7 @@
 #container{
 	max-height: 400px;
 	padding-right: 10px;
-	overflow-y: scroll;
+	overflow-y: auto;
 	font-size: 11px;
 }
 ul.activities{
